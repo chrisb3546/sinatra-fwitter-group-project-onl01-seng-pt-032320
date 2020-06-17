@@ -1,0 +1,6 @@
+<h1> Tweets Index</h1>
+
+<% Tweet.all.each do |tweet|%>
+     <h2><%="#{tweet.username}, #{tweet.content}"%></h2>
+
+<%end%>
